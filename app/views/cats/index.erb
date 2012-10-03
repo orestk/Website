@@ -1,0 +1,14 @@
+
+<table border="1" bgcolor="#00FF00">
+  <th>Name</th>
+  <th>Sex</th>
+  <th>Info</th>
+<%-@cats.each do |e| %>
+      <tr>
+        <td>   <%=e.name  %></td>
+        <td>   <%=e.sex %></td>
+        <td>   <%=e.description %></td>
+      </tr>
+
+<%- end %>
+    </table>
