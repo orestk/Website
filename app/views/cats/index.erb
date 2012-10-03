@@ -8,6 +8,7 @@
         <td>   <%=e.name  %></td>
         <td>   <%=e.sex %></td>
         <td>   <%=e.description %></td>
+        <td> <%= link_to 'edit cat', edit_cat_path(e) %></td>
       </tr>
 
 <%- end %>
