@@ -21,6 +21,13 @@ class CatsController < ApplicationController
     @cat.update_attributes(params[:cat])
     redirect_to root_path
   end
-
+  def show
+    @cat=Cat.find(params[:id])
+  end
+  def destroy
+    @cat=Cat.find(params[:id])
+    @cat.destroy
+    redirect_to root_path
+  end
 
 end
