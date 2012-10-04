@@ -11,3 +11,31 @@
  *= require_self
  *= require_tree .
  */
+#header{
+   background-color: #656123;
+   color: #999999;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+
+}
+#footer{
+    background-color: #300231;
+    color: #800000;
+}
+#header img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+#title{
+    float: left;
+    padding: 5px;
+}
+.cats_list{
+    margin: auto;
+    padding: 10px;
+}

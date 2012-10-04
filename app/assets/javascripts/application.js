@@ -13,3 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+function say_hello(name)
+{
+    alert("Hello I am cat from "+name);
+}
